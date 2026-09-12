@@ -1,0 +1,34 @@
+/* ---------- ABOUT PAGE ---------- */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #eef1f6;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.card {
+  border-radius: 18px;
+  border: none;
+}
+
+footer {
+  background: #111;
+  color: #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+/* 🌙 DARK MODE */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode footer {
+  background: #000;
+}
