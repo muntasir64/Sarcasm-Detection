@@ -1,0 +1,48 @@
+/* ---------- RESULTS PAGE ---------- */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f7fb;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+table {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #212529;
+  color: white;
+}
+
+.alert {
+  border-radius: 14px;
+}
+
+footer {
+  background: #111;
+  color: #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+/* 🌙 DARK MODE */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode table,
+body.dark-mode .alert {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .table th {
+  background-color: #000;
+}
+
+body.dark-mode footer {
+  background: #000;
+}

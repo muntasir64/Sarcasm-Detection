@@ -1,0 +1,47 @@
+/* ---------- HOME PAGE ---------- */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6fb;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  color: white;
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.card {
+  border-radius: 15px;
+  border: none;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+footer {
+  background: #111;
+  color: #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+/* 🌙 DARK MODE */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode footer {
+  background: #000;
+}
